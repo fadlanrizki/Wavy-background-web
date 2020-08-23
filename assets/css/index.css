@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100em;
+}
+.navbar,
+.sampul,
+.about-us {
+  background: linear-gradient(90deg, #234bb8, #366cff);
+}
+
+.sampul .btn-info:hover {
+  color: #234bb8 !important;
+}
+
+.underline {
+  height: 5px;
+  width: 150px;
+  margin: 0 auto;
+}
+.service .card {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: linear-gradient(90deg, #234bb8, #366cff);
+}
